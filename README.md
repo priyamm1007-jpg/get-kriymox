@@ -1,16 +1,101 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# KRIYMOX
 
-Currently, two official plugins are available:
+### WEBSITE INTELLIGENCE PLATFORM
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Analyze websites.  
+Extract metadata.  
+Detect frameworks.  
+Inspect SEO.
 
-## React Compiler
+![Status](https://img.shields.io/badge/STATUS-ACTIVE-red?style=for-the-badge)
+![React](https://img.shields.io/badge/REACT-Frontend-white?style=for-the-badge)
+![Express](https://img.shields.io/badge/EXPRESS-Backend-red?style=for-the-badge)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## WHAT IS KRIYMOX?
+
+KRIYMOX is a website intelligence tool that inspects websites and extracts valuable technical information in seconds.
+
+```txt
+Framework Detection
+SEO Analysis
+Metadata Extraction
+Security Checks
+Language Detection
+Open Graph Inspection
+```
+
+---
+
+## FEATURES
+
+- Framework Detection
+- SEO Signals
+- Security Indicators
+- Metadata Extraction
+- Open Graph Analysis
+- Language Detection
+
+---
+
+## STACK
+
+```txt
+Frontend  → React + Vite
+Backend   → Express
+Parser    → Axios + Cheerio
+Animation → Framer Motion
+```
+
+---
+
+## ROADMAP
+
+```txt
+[x] Framework Detection
+[x] SEO Analysis
+[x] Security Checks
+[x] Metadata Extraction
+
+[ ] Color Extraction
+[ ] Font Detection
+[ ] Lighthouse Metrics
+[ ] Export Reports
+```
+
+---
+
+## RUN LOCALLY
+
+```bash
+git clone https://github.com/priyamm1007-jpg/get-kriymox.git
+
+cd get-kriymox
+
+npm install
+
+npm run dev
+```
+
+---
+
+## PHILOSOPHY
+
+> Inspect the web.
+>
+> Understand the stack.
+>
+> Build better.
+
+---
+
+<div align="center">
+
+KRIYMOX © 2026
+
+</div>
