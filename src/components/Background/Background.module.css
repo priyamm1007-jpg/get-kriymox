@@ -1,0 +1,92 @@
+.background {
+  position: absolute;
+  inset: 0;
+
+  overflow: hidden;
+
+  z-index: 0;
+}
+
+.grid {
+  position: absolute;
+  inset: 0;
+
+  background-image:
+    linear-gradient(
+      rgba(255,255,255,.04) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255,255,255,.04) 1px,
+      transparent 1px
+    );
+
+  background-size: 50px 50px;
+
+  opacity: .35;
+}
+
+.glowOne {
+  position: absolute;
+
+  width: 600px;
+  height: 600px;
+
+  background: rgba(220,38,38,.15);
+
+  border-radius: 50%;
+
+  filter: blur(120px);
+
+  top: -200px;
+  left: -100px;
+
+  animation: floatOne 12s ease-in-out infinite;
+}
+
+.glowTwo {
+  position: absolute;
+
+  width: 500px;
+  height: 500px;
+
+  background: rgba(220,38,38,.12);
+
+  border-radius: 50%;
+
+  filter: blur(120px);
+
+  bottom: -150px;
+  right: -100px;
+
+  animation: floatTwo 14s ease-in-out infinite;
+}
+
+@keyframes floatOne {
+  0% {
+    transform: translate(0,0);
+  }
+
+  50% {
+    transform: translate(80px,60px);
+  }
+
+  100% {
+    transform: translate(0,0);
+  }
+}
+
+@keyframes floatTwo {
+  0% {
+    transform: translate(0,0);
+  }
+
+  50% {
+    transform: translate(-70px,-50px);
+  }
+
+  100% {
+    transform: translate(0,0);
+  }
+}
