@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/inspect";
+const API =
+  "https://kriymox-api.onrender.com/api/inspect";
 
 export async function inspectWebsite(url) {
   try {
